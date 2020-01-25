@@ -4,7 +4,6 @@
 #
 %define		pdir	Makefile
 %define		pnam	DOM
-%include	/usr/lib/rpm/macros.perl
 Summary:	Makefile::DOM - Simple DOM parser for Makefiles
 Summary(pl.UTF-8):	Makefile::DOM - prosty analizator DOM dla plików Makefile
 Name:		perl-Makefile-DOM
