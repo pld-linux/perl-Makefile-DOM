@@ -7,13 +7,13 @@
 Summary:	Makefile::DOM - Simple DOM parser for Makefiles
 Summary(pl.UTF-8):	Makefile::DOM - prosty analizator DOM dla plików Makefile
 Name:		perl-Makefile-DOM
-Version:	0.006
-Release:	2
+Version:	0.008
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AG/AGENT/Makefile-DOM-%{version}.tar.gz
-# Source0-md5:	c9136d35514d3445288d5f4b8cea5703
+# Source0-md5:	b66db82caca508a571d1eed345de89f3
 URL:		http://search.cpan.org/dist/Makefile-DOM/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.42
 BuildRequires:	perl-devel >= 1:5.8.0
