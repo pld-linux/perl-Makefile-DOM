@@ -1,0 +1,13 @@
+# List::MoreUtils::any (pure Perl) does not pass @_ to the block; XS only happens to expose the caller @_
+--- Makefile-DOM-0.008/lib/MDOM/Document/Gmake.pm.orig
++++ Makefile-DOM-0.008/lib/MDOM/Document/Gmake.pm
+@@ -471,7 +471,8 @@
+ }
+ 
+ sub _is_keyword {
+-    any { $_[0] eq $_ } @keywords;
++    my $word = shift;
++    any { $word eq $_ } @keywords;
+ }
+ 
+ 1;
